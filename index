@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AQUI SE COME BUENO</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->	
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+            <img src="img/logo.jpg"alt=""style="width:170px;height:170px;border-radius:70%;">
+                <a href="index.html" class="navbar-brand"><span></span></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="#menu" class="nav-item nav-link">Menu</a>
+                        <a href="#reserv" class="nav-item nav-link">Reservaciones</a>
+                        <div class="nav-item dropdown">
+                            <a href="#feautures" class="nav-link dropdown-toggle" data-toggle="dropdown">Galeria</a>
+                            <div class="dropdown-menu">
+                                <a href="#moments" class="dropdown-item">AMBIENTES</a>
+                                <a href="#news" class="dropdown-item">EVENTOS</a>
+                            </div>
+                        </div>
+                        <a href="#contact" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+       <!-- Carousel Start -->
+        <div class="carousel">
+            <div class="container-fluid">
+                <div class="owl-carousel">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/carousel-1.jpeg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Los <span> mejores</span> Ingredientes</h1>
+                            <p>
+                            📍 Ubicación única → Ubicados frente al mar, ofrecemos la mejor vista y la brisa perfecta para disfrutar en familia o con amigos. </p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="aquisecome.pdf"download="aqui-se-come">Ver Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                          <img src="img/carousel-2.jpeg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>SABORES <span>DEL</span> MAR</h1>
+                            <p>
+                                🎶 Música en vivo → Los mejores artistas locales para que disfrutes de un ambiente relajado y lleno de energía.
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="aquisecome.pdf"download="aqui-se-come">Ver Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/carousel-3.jpeg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Un ambiente <span>Inolvidable</span></h1>
+                            <p>
+                                🍸 Barra con cócteles exclusivos → Desde mojitos tropicales hasta margaritas artesanales, nuestra barra tiene algo para todos.
+                            </p>
+                           <div class="carousel-btn">
+                                <a class="btn custom-btn" href="aquisecome.pdf"download="aqui-se-come">Ver Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Booking Start -->
+        <section class="reserv" id="reserv">
+        <div class="booking">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="booking-content">
+                            <div class="section-header">
+                                
+                                <h2>Reserva tu mesa para cenas privadas y celebraciones</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                   VEN CON TU FAMILIA Y DISFRUTA NUESTROS.  
+                                </p>
+                                <p>
+                                   CADA BOCADO CUENTA UNA HISTORIA.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="booking-form">
+                            <form>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Name" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="far fa-user"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Email" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Mobile" required="required" />
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="fa fa-mobile-alt"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group date" id="date" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/>
+                                        <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group time" id="time" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/>
+                                        <div class="input-group-append" data-target="#time" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <select class="custom-select form-control">
+                                            <option selected>Guest</option>
+                                            <option value="1">1 Guest</option>
+                                            <option value="2">2 Guest</option>
+                                            <option value="3">3 Guest</option>
+                                            <option value="4">4 Guest</option>
+                                            <option value="5">5 Guest</option>
+                                            <option value="6">6 Guest</option>
+                                            <option value="7">7 Guest</option>
+                                            <option value="8">8 Guest</option>
+                                            <option value="9">9 Guest</option>
+                                            <option value="10">10 Guest</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <div class="input-group-text"><i class="fa fa-chevron-down"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="btn custom-btn" type="submit">RESERVA AQUI</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Start -->
+        <div class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/about.jpeg" alt="Image">
+                            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header">
+                                <h1>DEL MAR A TU MESA</h1>
+                                <h2>LOS MEJORES DE PR</h2>
+                            </div>
+                            <div class="about-text">
+                                <>h5
+                                   Alimentos frescos y de calidad solo para ti.
+                                </h5>
+                                <h3>
+                                  Sabores caribeños en cada bocado, que esperas para probar.
+                                </h3>
+                                <a class="btn custom-btn" href="">Reserva una mesa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+ 
+        <!-- Video Modal Start-->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Video Modal End -->
+        
+        
+        <!-- Feature Start -->
+        <div class="feature">
+           <section class="features" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="section-header">
+                            <h5>¿Porque venir a visitarnos?</h5>
+                            <h1>Los favoritos de la casa</h1>
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-img">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="img/feature-1.jpeg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="img/feature-2.jpeg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="img/feature-3.jpeg" alt="Image">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="img/feature-4.jpeg" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                TENEMOS LOS MEJORES PLATOS PARA TI Y TU FAMILIA.
+                            </p>
+                            <a class="btn custom-btn" href="">Reserva ahora</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-cooking"></i>
+                                    <h3>Los Mejores Chefs</h3>
+                                    <h6> Cada bocado cocinado con amor para tu paladar</h6>
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-vegetable"></i>
+                                    <h3>Ingredientes Naturales</h3>
+                                    <h6> por que tu nos importas, cuidamos tu bienestar.  </h6>
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-medal"></i>
+                                    <h3>Productos de Calidad</h3>
+                                    <h6>  La calidad no es una opción, es nuestra promesa en cada plato.  </h6>
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-meat"></i>
+                                    <h3>Carnes y vegetales frescos</h3>
+                                    <h6>  siempre frescos, siempre lo mejor para ti.  </h6>                               
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-courier"></i>
+                                    <h3>Rapidez y calidad de servicio</h3>
+                                   <h6>El mejor lugar para compartir risas y buenos momentos. </h6> 
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item">
+                                    <i class="flaticon-fruits-and-vegetables"></i>
+                                    <h3>Sabores inolvidables</h3>
+                                    <h6>Cada plato es una historia, cada bocado una aventura.</h6>
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+      
+        <!-- Menu Start -->
+        <section class="menu" id="menu">
+        <div class="menu">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1>Nuestro Menu</h1>
+                    <h1>¡Deleita tu paladar con una explosión de sabores caribeños!</h1>
+                </div>
+                    <center>
+                    <img src="img/menu-burger-img.jpeg" alt="Imagen centrada">
+                    <div class="carousel-btn">
+                    <a class="btn custom-btn" href="aquisecome.pdf"download="aqui-se-come">Ver Menu</a>
+                    </center>
+                  </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           </section>
+        <!-- Menu End -->
+        
+        
+        <!-- Team Start -->
+        <section class="moments" id="moments">
+        <div class="team">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h4>Nuestros Ambientes</h4>
+                    <h2>Un lugar para disfrutar </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpeg" alt="Image">
+                                
+                            </div>
+                            <div class="team-text">
+                                <p>Para Compartir</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" alt="Image">
+                               
+                            </div>
+                            <div class="team-text">
+                                <p>Para Recordar </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpeg" alt="Image">
+                                                           </div>
+                            <div class="team-text">
+                                <p>Para Endulzarte</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpeg" alt="Image">
+                               
+                            </div>
+                            <div class="team-text">
+                                <p>Para Refrescarte</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        
+        <!-- Contact Start -->
+        <section class="contact" id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1>CONTÁCTANOS</h1>
+                    <h2>PARA MÁS INFORMACIÓN</h2>
+                </div>
+                <div class="row align-items-center contact-information">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Encuentranos</h3>
+                                <p>Piñones en calle Loaiza 2058,San Juan, Puerto Rico, 00911</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Chateanos</h3>
+                                <p>+1(939)246-6364</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>ESCRIBENOS A </h3>
+                                <p>aquisecome.bueno</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-share"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Follow Us</h3>
+                                <div class="contact-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/people/Aqu%C3%AD-se-come-bueno/61572087734980/"><i class="fab fa-facebook-f"></i></a>
+                                    
+                                    <a href="https://www.instagram.com/aquisecomebueno_pr/"><i class="fab fa-instagram"></i></a>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row contact-form">
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!3m1!4b1!4m6!3m5!1s0x8c03686fe268196f:0xad6b7f0f5c935adc!8m2!3d18.4153108!4d-66.0593509!16zL20vMGZ3NHY?entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D2sPuerto%20Rico%2C!5e0!3m2!1sen!2sbd!4v1600663868074!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message">                                      </textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn custom-btn" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Blog Start -->
+        <section class="news" id="news">
+        <div class="blog">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Aqui se come bueno news</h2>
+                    <h2>Blog de promociones</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-1.jpeg" alt="Blog">
+                            </div>
+                            <div class="blog-content">
+                                <h2 class="blog-title">Hecho con los mejores ingredientes</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Food</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2025</p>
+                                    <p><i class="far fa-comments"></i>10</p>
+                                </div>
+                                <div class="blog-text">
+                                    <p>
+                                      Las mejores noches de karaoke para disfrutar con familia y amigos.  
+                                    </p>
+                                    <a class="btn custom-btn" href="">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpeg" alt="Blog">
+                            </div>
+                            <div class="blog-content">
+                                <h2 class="blog-title">Sabores del caribe</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Food</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2025</p>
+                                    <p><i class="far fa-comments"></i>10</p>
+                                </div>
+                                <div class="blog-text">
+                                    <p>
+                                        Aqui encontraras un ambiente inolvidable, sabores exquisitos y mucho más.
+                                    </p>
+                                    <a class="btn custom-btn" href="">leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-text">
+                                    <h3>ENCUENTRANOS EN</h3>
+                                    <h6><i class="fa fa-map-marker-alt"></i>Piñones en calle Loaiza 2058,San Juan, Puerto Rico, 00911</h6>
+                                    <h6><i class="fa fa-phone-alt"></i>+1(939)246-6364</h6>
+                                    <h6><i class="fa fa-envelope"></i>empresasparron14@gmail.com</h6>
+                                    <div class="footer-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/people/Aqu%C3%AD-se-come-bueno/61572087734980/"><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href="https://www.instagram.com/aquisecomebueno_pr/"><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="container">
+                            <h2>Eventos</h2>
+                            <h6>
+                                Siguenos en nuestras redes sociales y enterate de todo lo bueno que tenemos para ti.
+                            </h6>
+                            <div class="form">
+                                <input class="form-control" placeholder="Suscribite para promociones">
+                                <button class="btn custom-btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright &copy; <a href="#">AQUI SE COME BUENO</a>, All Right Reserved.</p>
+                    <p>Designed By <a href="">Aqui se come bueno pr</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
